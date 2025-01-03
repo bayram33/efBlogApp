@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("efBlogApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ff3e114bf0241ae4f5f704448f5c6b496e455c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("efBlogApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("efBlogApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

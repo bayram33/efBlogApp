@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\efBlogApp.w72k9iizis.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xKY3cDQ/s2fqpn3hLIi\u002B2nsjvK6/Wt3qpSwcH0jLoTU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xKY3cDQ/s2fqpn3hLIi\u002B2nsjvK6/Wt3qpSwcH0jLoTU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 03 Jan 2025 07:29:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xKY3cDQ/s2fqpn3hLIi\u002B2nsjvK6/Wt3qpSwcH0jLoTU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 03 Jan 2025 14:29:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/efBlogApp/efBlogApp.w72k9iizis.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\efBlogApp.w72k9iizis.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w72k9iizis"},{"Name":"integrity","Value":"sha256-xKY3cDQ/s2fqpn3hLIi\u002B2nsjvK6/Wt3qpSwcH0jLoTU="},{"Name":"label","Value":"_content/efBlogApp/efBlogApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xKY3cDQ/s2fqpn3hLIi\u002B2nsjvK6/Wt3qpSwcH0jLoTU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 03 Jan 2025 07:29:11 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022xKY3cDQ/s2fqpn3hLIi\u002B2nsjvK6/Wt3qpSwcH0jLoTU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 03 Jan 2025 14:29:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/efBlogApp/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

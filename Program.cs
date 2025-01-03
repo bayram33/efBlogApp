@@ -1,7 +1,25 @@
+using efBlogApp.Data.Abstract;
+using efBlogApp.Data.Concrete;
+using efBlogApp.Data.Entity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+builder.Services.AddDbContext<BlogContext>(options =>
+{
+    var config = builder.Configuration;
+    var connectionString = config.GetConnectionString("myConnection");
+    options.UseSqlServer(connectionString);
+});
+
+
+builder.Services.AddScoped< IPostRepository, PostRepository>();
+
 
 var app = builder.Build();
 
@@ -22,6 +40,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
 
 app.Run();
